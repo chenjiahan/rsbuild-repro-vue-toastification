@@ -1,0 +1,19 @@
+{
+  "name": "rsbuild-vue3-js",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "vue-toastification": "2.0.0-rc.5"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^0.2.5",
+    "@rsbuild/plugin-vue": "^0.2.5",
+    "@rsbuild/webpack": "^0.2.5"
+  }
+}
